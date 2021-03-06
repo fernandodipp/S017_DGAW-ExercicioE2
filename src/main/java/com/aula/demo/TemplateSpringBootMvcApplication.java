@@ -19,7 +19,7 @@ public class TemplateSpringBootMvcApplication {
 
 	
 	 @RequestMapping(value = "/hello", method = RequestMethod.GET, produces="application/json")	 
-	  public String getPessoas() {
-		 return "Ola mundo";
+	  public String hello() {
+		 return "Ola mundo Rest";
 	 }
 }
