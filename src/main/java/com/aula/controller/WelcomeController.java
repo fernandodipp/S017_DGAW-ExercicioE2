@@ -5,6 +5,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import com.aula.controller.*;
+import com.aula.dados.*;
+import com.aula.modelo.*;
+import com.aula.negocio.*;
+import com.aula.validacoes.*;
 
 @Controller
 public class WelcomeController {

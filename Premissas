@@ -1,0 +1,45 @@
+Essa atividade visa criar um sistema web MVC. O objetivo dessa aplicação é visualizar a
+folha de pagamento de uma empresa. Para isso é necessário ter os funcionários
+cadastrados. Então deve ser feito um módulo de cadastro de funcionário, cadastrando as
+principais informações e obviamente o seu salário. Além disso, deve ter uma listagem com
+todos os funcionários cadastrados. Na parte da folha de pagamento, é necessário que seja
+apresentado um relatório com todos os salários dos funcionários, com seu nome . Segue
+em detalhes o sistema
+# módulo cadastro funcionário
+Cadastrar as principais informações de um funcionário, como nome, salário e setor.
+Salvar na memória.
+Validação, não aceitar nome em branco, salario menor que 0 ou maior 1000.
+O Setor não pode ser em branco.
+# modulo listagem funcionário
+Mostrar todos os funcionários cadastrados.
+É importante implementar usando as camadas de arquitetura (apresentação, negócio e
+dados) e usar MVC.
+
+Controlador – recebe as requisições do cliente, decide qual modelo e
+visão irão ser utilizados; valida as requisições dos usuários conforme regras
+de autenticação e autorização
+
+
+Modelo – recebe dados do controlador para manipulá-los e/ou validá-los;
+acessa BD; trata de regras de negócio; informa ao controlador o sucesso ou
+não sucesso das execuções enviadas pelo controlador
+Cadastrar as principais informações de um funcionário, como nome, salário e setor.
+Salvar na memória.
+Validação, não aceitar nome em branco, salario menor que 0 ou maior 1000.
+O Setor não pode ser em branco.
+
+Visão – transforma os dados em uma representação visual para o usuário final;
+exibe dados em HTML ou XML; usa informações modeladas para produzir interfaces
+de apresentação; sua saída é realizada na response (web)
+Mostrar todos os funcionários cadastrados.
+É importante implementar usando as camadas de arquitetura (apresentação, negócio e
+dados) e usar MVC.
+
+
+import com.aula.controller.*;
+import com.aula.dados.*;
+import com.aula.modelo.*;
+import com.aula.negocio.*;
+import com.aula.validacoes.*;
+
+import="com.aula.controller.*,com.aula.dados.*,com.aula.modelo.*,com.aula.negocio.*,com.aula.validacoes.*"
