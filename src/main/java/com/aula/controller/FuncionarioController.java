@@ -59,8 +59,8 @@ public class FuncionarioController {
 		public String cadastrafuncionario2(
 				@RequestParam(name = "nome") String nome,
 				@RequestParam(name = "salario") String salario,
-				@RequestParam(name = "setor") String setor,
-				Model model) {		
+				@RequestParam(name = "setor") String setor
+				/*Model model*/) {		
 			
 
 			FuncionarioCamadaNegocio camadaNegocio = new FuncionarioCamadaNegocio();
@@ -78,4 +78,5 @@ public class FuncionarioController {
 				return "cadastro_funcionario_ERROR";
 			}
 		}
+
 }

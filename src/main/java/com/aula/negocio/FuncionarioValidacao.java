@@ -4,19 +4,19 @@ O Setor não pode ser em branco.*/
 
 package com.aula.negocio;
 
-import com.aula.controller.*;
-import com.aula.dados.*;
+//import com.aula.controller.*;
+//import com.aula.dados.*;
 import com.aula.modelo.*;
-import com.aula.negocio.*;
-import com.aula.validacoes.*;
+//import com.aula.negocio.*;
+//import com.aula.validacoes.*;
 
 public class FuncionarioValidacao {
 	public boolean valida(FuncionarioModelo funcionario) {
 		FuncionarioModelo funcObjeto = new FuncionarioModelo();
 		String nomeFuncionario = funcObjeto.getNome();
 		String setorFuncionario = funcObjeto.getSetor();
-		String salarioFuncionario = funcObjeto.getSalario();
-		int salarioParse  = Integer.parseInt(funcObjeto.getSalario());
+		String salarioFuncionario = funcObjeto.salario;
+		float salarioParse  = Float.parseFloat(salarioFuncionario);
 		
 		if(nomeFuncionario == null || nomeFuncionario.equals("")) {
 			return false;

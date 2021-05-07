@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="cadastro_funcionario" method="post">
+<form action="cadastro_funcionario_2" method="post">
 	Nome: <input type="text" name="nome"/> <br>
 	Setor: <input type="text" name="setor"/> <br>
 	Salario: <input type="text" name="salario"/> <br>
